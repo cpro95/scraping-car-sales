@@ -9,7 +9,7 @@ const XLSX = require('xlsx');
 var ws_data = [];
 
 // main execution
-for (i = 1; i < 12; i++) {
+for (i = 1; i < 13; i++) {
     let month = '';
     if (i < 10) {
         month = '2020-0' + i;
